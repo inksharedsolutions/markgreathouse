@@ -13,14 +13,14 @@ const LowerMain = ()=>{
                     </div>
 
                     <div className="wrapper-auth-content" id="auth-content-wrapper">    
-                        <p className="italic-tag margin-off">Well done, good and faithful servant</p>
+                        <p className="italic-tag margin-off"></p>
                         <h1>    
                             The Author
                         </h1>
 
                         <p className="author-content">
-                            Mark and Helena Greathouse are a musical duo and live in Portland, Oregon.  Mark plays the accordion and Helena sings and dances.  They call themselves Greathouse of Music.  Mark’s introduction to music began at the age of five when his father, a music teacher in Portland, Oregon, introduced him to the accordion.  During his teenage years Mark won several awards for his accordion performances before going to Europe to study German, where he met his future wife, Helena, from Prague.
-                            
+                            Mark has played music ever since his father introduced him to the accordion at age five.  He won several awards for his accordion performances in Oregon before going to Europe during his college years to study German, where in the late 1960’s he met his future Czech wife Helena.
+                            From age seven throughout her childhood Helena sang on the Czechoslovak National Radio and performed in musicals in principal and leading roles on both the Czechoslovak National TV and live theater in her native Czechoslovakia.
                             <Link to="/about-the-author"
                              className="link-read">
                                 read more

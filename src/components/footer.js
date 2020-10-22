@@ -18,7 +18,7 @@ const Footer = ()=>{
                             <img src={Logo} alt="img-footer-logo"/>
                         </h1>
                         <p>
-                            Adin Kachisi loves to hear from readers. You can reach him via email. 
+                            Mark Greathouse loves to hear from readers. You can reach him via email. 
                             Feel free to send questions about writing, his works, interviews 
                             and other publicity matters.
                         </p> 
@@ -27,7 +27,7 @@ const Footer = ()=>{
                         <ul>
 
                             <li>
-                                <a href="https://www.facebook.com/Adin-Kachisi-2219265034958157/"
+                                <a href="https://www.facebook.com/Mark-L-Greathouse-109815840583058/"
                                 target="_blank">
                                     <FontAwesomeIcon
                                         className='font-awesome'
@@ -58,7 +58,7 @@ const Footer = ()=>{
                             <li>
                                 <a 
                                     target="_blank"
-                                    href="https://www.goodreads.com/book/show/46231748-deep-down-the-rabbit-hole">
+                                    href="https://www.goodreads.com/book/show/51007330-dancing-for-fun">
                                     <FontAwesomeIcon 
                                         className='font-awesome'
                                         icon={faGoodreads} />

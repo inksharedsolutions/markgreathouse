@@ -19,7 +19,7 @@ const MidBook = (props)=>{
                             <h1>Dancing For Fun</h1>
                             <span>Group Dancing For All Ages - Book 1</span>
                             <p>
-                                Dancing is a universal and primal form of expression, and it is something we can all enjoy.
+                            Dancing is a universal and primal form of expression, and it is something we can all enjoy. What’s more, it’s a healthy and fun way to bring more exercise into our lives. Anyone, at any age, can enjoy group dancing, from the very young children to senior citizens.
                             </p>
 
                             <Accordions/>

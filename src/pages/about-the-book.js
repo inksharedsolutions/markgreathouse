@@ -49,7 +49,7 @@ const ATB = (props)=>{
                                     </p>
 
                                     <p>
-                                    Author Mark L. Greathouse, in collaboration with his wife, Helena, offers original piano compositions and professionally written choreography designed to match the music exactly. To further aid in learning the dances, this teaching tool also provides links to online videos demonstrating each dance and the music to go with it.
+                                    Author Mark L. Greathouse, in collaboration with his wife, Helena, offers original piano compositions and professionally written choreography designed to match the music exactly. To learn the dances, it is best to go to the links to the online videos demonstrating each dance and the music to go with it.
                                     </p>
 
                                     <p>

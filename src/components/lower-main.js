@@ -9,7 +9,7 @@ const LowerMain = ()=>{
         
                 <div className="grid-two-columns" id="author-container">
                     <div className="wrapper-auth-content auth-img-container">
-                        <img src={AuthorImg} />
+                        <img src={AuthorImg} alt="author mugshot"/>
                     </div>
 
                     <div className="wrapper-auth-content" id="auth-content-wrapper">    

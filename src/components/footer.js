@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'gatsby'
-import {faTwitter, faInstagram, faFacebook, faGoodreads, faPinterest, faLinkedin } from '@fortawesome/fontawesome-free-brands'
+import {faTwitter, faInstagram, faFacebook, faGoodreads} from '@fortawesome/fontawesome-free-brands'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import LogoFooter from '../../static/logo/stratton-footer-logo.png'
 import  Logo from '../../static/logo/logo.png'
@@ -27,8 +27,9 @@ const Footer = ()=>{
                         <ul>
 
                             <li>
-                                <a href="https://www.facebook.com/Mark-L-Greathouse-109815840583058/"
-                                target="_blank">
+                                <a  rel="noopener noreferrer" 
+                                    href="https://www.facebook.com/Mark-L-Greathouse-109815840583058/"
+                                    target="_blank">
                                     <FontAwesomeIcon
                                         className='font-awesome'
                                         icon={faFacebook} />
@@ -36,7 +37,7 @@ const Footer = ()=>{
                             </li>
 
                             <li>
-                                <a 
+                                <a  rel="noopener noreferrer" 
                                     target="_blank"
                                     href="https://twitter.com/strattonpress/">
                                     <FontAwesomeIcon
@@ -46,7 +47,7 @@ const Footer = ()=>{
                             </li>
 
                             <li>
-                                <a  
+                                <a  rel="noopener noreferrer" 
                                     target="_blank"
                                     href="https://www.instagram.com/strattonpress/">
                                     <FontAwesomeIcon
@@ -56,7 +57,7 @@ const Footer = ()=>{
                             </li>
                         
                             <li>
-                                <a 
+                                <a  rel="noopener noreferrer" 
                                     target="_blank"
                                     href="https://www.goodreads.com/book/show/51007330-dancing-for-fun">
                                     <FontAwesomeIcon 

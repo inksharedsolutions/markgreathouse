@@ -59,14 +59,13 @@ const ATB = (props)=>{
                                     `,
 
                                     ebooks:{
-                                        stratton : 'https://www.stratton-press.com/books/dancing-for-fun-group-dancing-for-all-ages-book-1/',
-                                        barnes: 'https://www.barnesandnoble.com/w/dancing-for-fun-mark-l-greathouse/1136305114?ean=9781643458564',
-                                        amazon :'https://www.amazon.com/Dancing-Fun-Book-Group-Ages-ebook/dp/B08464KBY9/ref=sr_1_1?keywords=9781643458564&qid=1580497208&sr=8-1', 
+                                        amazon :'https://www.amazon.com/Dancing-Fun-Book-Group-Ages-ebook/dp/B08464KBY9/',
+                                        barnes: 'https://www.barnesandnoble.com/w/dancing-for-fun-mark-l-greathouse/1136305114?ean=9781643458564', 
                                     },
                                     paperback:{
-                                        amazon:'https://www.amazon.com/Dancing-Fun-Book-Group-Ages/dp/1643458558/ref=sr_1_1?keywords=9781643458557&qid=1580497235&sr=8-1',
-                                        barnes:'https://www.barnesandnoble.com/w/dancing-for-fun-mark-l-greathouse/1136305114?ean=9781643458557',
-                                        booksamillion:'https://www.booksamillion.com/p/Dancing-Fun/Mark-L-Greathouse/9781643458557?id=8009965417365&_ga=2.130984967.948029403.1603093179-1770015116.1600996550',
+                                        amazon:'https://www.amazon.com/Dancing-Fun-Book-Group-Ages/dp/1643458558/',
+                                        barnes:'https://www.barnesandnoble.com/w/dancing-for-fun-mark-l-greathouse/1136305114',
+                                        booksamillion:'https://www.booksamillion.com/p/Dancing-Fun/Mark-L-Greathouse/9781643458557',
                                     }
                                 }} 
                             />

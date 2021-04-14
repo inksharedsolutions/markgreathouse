@@ -460,3 +460,19 @@ $prm-font-size : 12px;
     font-weight: 600;
     font-size: 15px;
 }
+
+/* Videos */
+.radio-interviews-content{
+	.video-header{
+		font-size: 3em;
+		font-weight: bold;
+		margin: 5% 0;
+	}
+
+    .player-wrapper{
+        display: inline-block;
+        width:100%;
+        padding: 1%;
+    }
+
+}

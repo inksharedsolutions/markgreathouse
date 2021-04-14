@@ -542,4 +542,29 @@
     }
 }
 
+.radio-interview {
+	// background: #f7f4e9;
+    padding: 5%;
+
+	.grid-child-content {
+		h1 {
+			color: #000 !important;
+			font-size: 4em;
+			line-height: 1;
+			font-weight: 700;
+
+			span {
+				display: block;
+			}
+		}
+
+		h5 {
+			text-transform: uppercase;
+			margin-bottom: 22px;
+			letter-spacing: 8px;
+			font-weight: 100;
+			color: rgb(216, 120, 100);
+		}
+	}
+}
   

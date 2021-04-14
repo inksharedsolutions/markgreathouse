@@ -277,6 +277,14 @@
         }
         
     }
+
+    .radio-interview{
+        text-align: center;
+
+        button{
+            margin-bottom: 5%;
+        }
+    }
 }
 
 @media screen and (max-width: 650px){
@@ -567,6 +575,14 @@
         input[name="email"]{
             width: 100%;
         }
-    } 
+    }
+
+    .radio-interview{
+        h1{
+            span{
+                font-size: 0.9em;
+            }
+        }
+    }
 
 }

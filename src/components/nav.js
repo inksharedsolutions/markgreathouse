@@ -97,6 +97,12 @@ const Nav = (props) => {
                         </li>
                         <li>
                             <Link
+                                to='/videos'>
+                                Videos
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
                                 to='/contact'>
                                 Contact
                             </Link>

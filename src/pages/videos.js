@@ -1,13 +1,31 @@
-import React from 'react'
+import React from 'react';
 import Layout from '../components/layout'
 import Nav from '../components/nav'
 import Banner from '../components/non-front-banner'
 import ReactPlayer from 'react-player/youtube'
 import { Helmet } from 'react-helmet';
 
-const videos = (props) =>{
+import Modal from '../components/modal';
+
+// PDFs
+import Awakening from '../../static/pdf/AWAKENING.pdf';
+import Fall from '../../static/pdf/fall.pdf';
+import Just from '../../static/pdf/just.pdf';
+import Macek from '../../static/pdf/macek.pdf';
+import Mourek from '../../static/pdf/mourek.pdf';
+import Rainbow from '../../static/pdf/rainbow.pdf';
+import Riverflow from '../../static/pdf/RIVERFLOW.pdf';
+import Scrambling from '../../static/pdf/scrambling.pdf';
+import Soul from '../../static/pdf/soul.pdf';
+import Spring from '../../static/pdf/Spring.pdf';
+import Steeping from '../../static/pdf/steeping.pdf';
+import Waltz from '../../static/pdf/waltz.pdf';
+
+const Videos = (props) =>{
+
 	return(
 		<>
+		
 		 	<Layout>
                 <Helmet title="Videos | Mark Greathouse" />
 			 	<Nav pathExt={props.path}/>
@@ -32,6 +50,7 @@ const videos = (props) =>{
 										playIcon
 									/>
 								</div>
+								<Modal title="Riverflow" pdf={Riverflow} />
 							</div>    
 							<div className="radint-vid video-2">
 								<div className="player-wrapper">
@@ -44,6 +63,7 @@ const videos = (props) =>{
 										playIcon
 									/>
 								</div>
+								<Modal title="Spring Rain" pdf={Spring} />
 							</div>
                             <div className="radint-vid video-2">
 								<div className="player-wrapper">
@@ -56,6 +76,7 @@ const videos = (props) =>{
 										playIcon
 									/>
 								</div>
+								<Modal title="Just Gettin' By" pdf={Just} />
 							</div>
                             <div className="radint-vid video-2">
 								<div className="player-wrapper">
@@ -68,6 +89,7 @@ const videos = (props) =>{
 										playIcon
 									/>
 								</div>
+								<Modal title="Soul Song" pdf={Soul} />
 							</div>
                             <div className="radint-vid video-2">
 								<div className="player-wrapper">
@@ -80,6 +102,7 @@ const videos = (props) =>{
 										playIcon
 									/>
 								</div>
+								<Modal title="Rainbow" pdf={Rainbow} />
 							</div>
                             <div className="radint-vid video-2">
 								<div className="player-wrapper">
@@ -92,6 +115,7 @@ const videos = (props) =>{
 										playIcon
 									/>
 								</div>
+								<Modal title="Fall Calypso" pdf={Fall} />
 							</div>
                             <div className="radint-vid video-2">
 								<div className="player-wrapper">
@@ -104,6 +128,7 @@ const videos = (props) =>{
 										playIcon
 									/>
 								</div>
+								<Modal title="Mourek Saunter" pdf={Mourek} />
 							</div>
                             <div className="radint-vid video-2">
 								<div className="player-wrapper">
@@ -116,6 +141,7 @@ const videos = (props) =>{
 										playIcon
 									/>
 								</div>
+								<Modal title="Macek Rag" pdf={Macek} />
 							</div>
                             <div className="radint-vid video-2">
 								<div className="player-wrapper">
@@ -128,6 +154,7 @@ const videos = (props) =>{
 										playIcon
 									/>
 								</div>
+								<Modal title="Awakening" pdf={Awakening} />
 							</div>
                             <div className="radint-vid video-2">
 								<div className="player-wrapper">
@@ -140,6 +167,7 @@ const videos = (props) =>{
 										playIcon
 									/>
 								</div>
+								<Modal title="Steeping Along" pdf={Steeping} />
 							</div>
                             <div className="radint-vid video-2">
 								<div className="player-wrapper">
@@ -152,6 +180,7 @@ const videos = (props) =>{
 										playIcon
 									/>
 								</div>
+								<Modal title="Waltz in Eb" pdf={Waltz} />
 							</div>
                             <div className="radint-vid video-2">
 								<div className="player-wrapper">
@@ -164,13 +193,15 @@ const videos = (props) =>{
 										playIcon
 									/>
 								</div>
+								<Modal title="Scrambling" pdf={Scrambling} />
 							</div>
 						</div>
 					</div>
  				</div>
 	 		</Layout>
+
 		</>
 	)
 }
 
-export default videos;
+export default Videos;

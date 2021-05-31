@@ -42,7 +42,7 @@ $prm-font-size : 12px;
     align-items: center;
     height: 400px;
     position: relative;
-    z-index: 2;
+    // z-index: 2;
 }
 
 .columns{
@@ -466,7 +466,7 @@ $prm-font-size : 12px;
 	.video-header{
 		font-size: 3em;
 		font-weight: bold;
-		margin: 5% 0;
+		margin: 5%;
 	}
 
     .player-wrapper{

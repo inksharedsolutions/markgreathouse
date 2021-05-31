@@ -38,13 +38,16 @@
     }
 }
 
-@media screen and ( min-width : 1040px){ 
+@media screen and ( min-width : 1024px){ 
     .auth-img-container{
         img{
             height: auto;
             padding-left: 0%;
         }
         
+    }
+    .Modal{
+        width: 70% !important;
     }
 }
 
@@ -266,6 +269,10 @@
             }
         }
     
+    }
+
+    .Modal{
+        width: 75% ;
     }
 }
 
@@ -583,6 +590,10 @@
                 font-size: 0.9em;
             }
         }
+    }
+
+    .Modal{
+        width: 90%;
     }
 
 }
